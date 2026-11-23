@@ -1,0 +1,1 @@
+# janoschka-dealstudie

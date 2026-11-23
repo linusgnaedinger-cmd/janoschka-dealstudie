@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deal-Nachbau: Janoschka AG / Blue Cap AG</title>
+<meta name="description" content="Vereinfachte Bewertung der Janoschka AG (DCF und Multiples) als Nachbau einer von IMAP Germany beratenen Transaktion.">
+<style>
+:root{--navy:#0a2a4f;--blue:#1e6fb8;--light:#eaf1f8;--line:#d5dde6;--text:#1c2633;--muted:#5b6878;--bg:#ffffff;--warn:#b26a00}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Helvetica Neue",Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.55}
+header{background:var(--navy);color:#fff;padding:48px 16px 40px}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header .wrap{padding:0}
+.kicker{text-transform:uppercase;letter-spacing:.12em;font-size:12px;color:#9fc3e6;margin:0 0 8px}
+h1{font-size:32px;margin:0 0 10px;font-weight:600}
+header p{margin:0;color:#d6e3f0;max-width:720px}
+nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:2}
+nav .wrap{display:flex;gap:20px;overflow-x:auto;padding:12px 16px;font-size:14px}
+nav a{color:var(--navy);text-decoration:none;white-space:nowrap}
+nav a:hover{color:var(--blue)}
+section{padding:40px 0;border-bottom:1px solid var(--line)}
+h2{color:var(--navy);font-size:22px;margin:0 0 16px;font-weight:600}
+h2 span{color:var(--blue);font-weight:400;margin-right:8px}
+h3{color:var(--navy);font-size:16px;margin:24px 0 8px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:20px 0}
+.kpi{background:var(--light);border-left:4px solid var(--blue);padding:14px 16px}
+.kpi b{display:block;font-size:22px;color:var(--navy)}
+.kpi small{color:var(--muted);font-size:13px}
+.tbl{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:right}
+th:first-child,td:first-child{text-align:left}
+thead th{background:var(--navy);color:#fff;font-weight:500}
+tr.sum td{font-weight:700;border-top:2px solid var(--navy)}
+td.hl{background:var(--light);font-weight:700}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:10px;background:#fff3e0;color:var(--warn);border:1px solid #f0c98a;vertical-align:middle}
+.tag.src{background:#e8f4ea;color:#2e7d32;border-color:#a5d6a7}
+.note{font-size:13px;color:var(--muted)}
+.box{background:var(--light);padding:18px 20px;border-radius:4px;margin:16px 0}
+.ff{margin:18px 0}
+.ffrow{display:grid;grid-template-columns:190px 1fr;align-items:center;gap:12px;margin:10px 0;font-size:14px}
+.track{position:relative;height:26px;background:#f3f6f9}
+.bar{position:absolute;top:3px;height:20px;background:var(--blue)}
+.bar.deal{background:var(--warn)}
+.bar span{position:absolute;top:1px;font-size:12px;color:var(--text);white-space:nowrap}
+.bar span.l{right:calc(100% + 6px)}.bar span.r{left:calc(100% + 6px)}
+.axis{display:grid;grid-template-columns:190px 1fr;gap:12px;font-size:12px;color:var(--muted)}
+.axis div:last-child{display:flex;justify-content:space-between}
+ol.src{font-size:13px;color:var(--muted);padding-left:20px}
+ol.src a{color:var(--blue);word-break:break-word}
+footer{padding:28px 0 48px;font-size:13px;color:var(--muted)}
+@media(max-width:600px){h1{font-size:25px}.ffrow,.axis{grid-template-columns:1fr}.axis div:first-child{display:none}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+<p class="kicker">Deal-Nachbau · Outside-in-Bewertung</p>
+<h1>Janoschka AG: Verkauf an die Blue Cap AG</h1>
+<p>Vereinfachter Nachbau einer Transaktion, bei der IMAP Germany die Verkäufer exklusiv beraten hat. DCF und Multiples auf Basis öffentlicher Informationen und klar gekennzeichneter Annahmen.</p>
+</div></header>
+
+<nav><div class="wrap">
+<a href="#deal">Deal</a><a href="#annahmen">Annahmen</a><a href="#dcf">DCF</a><a href="#multiples">Multiples</a><a href="#ergebnis">Ergebnis</a><a href="#fazit">Fazit</a><a href="#quellen">Quellen</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="deal">
+<h2><span>01</span>Der Deal</h2>
+<p><b>Janoschka AG</b> (Kippenheim, Baden-Württemberg) ist ein One-Stop-Anbieter für die Druckvorstufe der Verpackungsindustrie: Reproduktion, Druck- und Prägewerkzeuge (Tiefdruckzylinder, Flexo, Prägewalzen) sowie über <i>Linked2Brands</i> eine Premedia-Agentur. Kunden sind Verpackungshersteller und FMCG-Markenartikler. Die Branche ist spannend, weil jede Verpackungsänderung (Design, Regulierung, Recycling-Materialien) neue Druckformen auslöst: ein wiederkehrendes, wenig zyklisches Geschäft.</p>
+<p>Am <b>7. Mai 2026</b> unterzeichnete die börsennotierte Beteiligungsgesellschaft <b>Blue Cap AG</b> den Kauf von 100 % der Aktien von Mitgliedern der Gründerfamilie und der Süd Beteiligungen GmbH (SüdBG). Das Closing erfolgte am <b>18. Juni 2026</b>. IMAP Germany hat die Verkäufer exklusiv über alle Phasen des M&amp;A-Prozesses beraten. <span class="tag src">Quelle 1, 2, 3</span></p>
+<div class="kpis">
+<div class="kpi"><b>~90 Mio. €</b><small>Umsatz 2025</small></div>
+<div class="kpi"><b>~1.500</b><small>Mitarbeitende</small></div>
+<div class="kpi"><b>12 Länder</b><small>Produktionsstandorte</small></div>
+<div class="kpi"><b>vertraulich</b><small>Kaufpreis (3 Tranchen, 2 davon Earn-out)</small></div>
+</div>
+</section>
+
+<section id="annahmen">
+<h2><span>02</span>Annahmen</h2>
+<p>EBITDA und Kaufpreis von Janoschka sind nicht veröffentlicht. Die Annahmen sind deshalb aus öffentlichen Angaben von Blue Cap hergeleitet oder bewusst konservativ gesetzt. <span class="tag">Annahme</span> markiert eigene Schätzungen.</p>
+
+<h3>Wie hoch ist die Marge? Eine Herleitung aus der Blue-Cap-Prognose</h3>
+<div class="tbl"><table>
+<thead><tr><th>Blue Cap Prognose 2026</th><th>Umsatz (Mitte)</th><th>Adj. EBITDA-Marge (Mitte)</th><th>EBITDA</th></tr></thead>
+<tbody>
+<tr><td>vor Janoschka</td><td>130 Mio. €</td><td>5,5 %</td><td>7,2 Mio. €</td></tr>
+<tr><td>nach Janoschka</td><td>180 Mio. €</td><td>8,0 %</td><td>14,4 Mio. €</td></tr>
+<tr class="sum"><td>Differenz (≈ Janoschka ab Juni)</td><td>50 Mio. €</td><td>~14,5 %</td><td>7,3 Mio. €</td></tr>
+</tbody></table></div>
+<p class="note">Die Prognoseanpassung impliziert eine Marge von rund 14–15 % für den Janoschka-Anteil (ca. 6,5 Monate × 90 Mio. € ≈ 49 Mio. € Umsatz passt zur Differenz). Im ersten Monat nach Closing meldete Blue Cap dagegen nur 6,6 % (0,5 Mio. € EBITDA auf 7,9 Mio. € Umsatz, HGB). Für das Basisjahr wird daher ein Mittelweg angesetzt: <b>12 % EBITDA-Marge 2025 ≈ 10,8 Mio. € EBITDA</b>. <span class="tag">Annahme</span></p>
+
+<h3>Annahmen im Überblick</h3>
+<div class="tbl"><table>
+<thead><tr><th>Parameter</th><th>Wert</th><th>Begründung</th></tr></thead>
+<tbody>
+<tr><td>Umsatz 2025</td><td>90,0 Mio. €</td><td style="text-align:left">veröffentlicht <span class="tag src">Quelle 1</span></td></tr>
+<tr><td>Umsatzwachstum 2026–30</td><td>2–3 % p.a.</td><td style="text-align:left">reifer Markt, leicht über Inflation <span class="tag">Annahme</span></td></tr>
+<tr><td>EBITDA-Marge</td><td>12 % → 14 %</td><td style="text-align:left">Hebel laut Blue Cap: Automatisierung, Produktivität <span class="tag">Annahme</span></td></tr>
+<tr><td>Abschreibungen / Capex</td><td>je 5 % vom Umsatz</td><td style="text-align:left">kapitalintensive Zylinderfertigung, Erhaltungsniveau <span class="tag">Annahme</span></td></tr>
+<tr><td>Working Capital</td><td>12 % des Mehrumsatzes</td><td style="text-align:left">übliches Niveau Industrie-Mittelstand <span class="tag">Annahme</span></td></tr>
+<tr><td>Steuersatz</td><td>30 %</td><td style="text-align:left">KSt + Soli + Gewerbesteuer Deutschland</td></tr>
+<tr><td>WACC</td><td>10,0 %</td><td style="text-align:left">Small-Cap-Prämie, privat gehalten; Blue Cap nutzt 5,8–8,3 % für eigene Beteiligungen <span class="tag">Annahme</span></td></tr>
+<tr><td>Ewiges Wachstum</td><td>1,5 %</td><td style="text-align:left">wie in der Blue-Cap-NAV-Methodik <span class="tag src">Quelle 4</span></td></tr>
+</tbody></table></div>
+</section>
+
+<section id="dcf">
+<h2><span>03</span>DCF-Bewertung</h2>
+<div class="tbl"><table>
+<thead><tr><th>Mio. €</th><th>2026e</th><th>2027e</th><th>2028e</th><th>2029e</th><th>2030e</th></tr></thead>
+<tbody>
+<tr><td>Umsatz</td><td>91,8</td><td>94,6</td><td>97,4</td><td>100,3</td><td>102,8</td></tr>
+<tr><td>EBITDA</td><td>11,0</td><td>11,8</td><td>12,7</td><td>13,5</td><td>14,4</td></tr>
+<tr><td><i>Marge</i></td><td>12,0 %</td><td>12,5 %</td><td>13,0 %</td><td>13,5 %</td><td>14,0 %</td></tr>
+<tr><td>– Abschreibungen</td><td>4,6</td><td>4,7</td><td>4,9</td><td>5,0</td><td>5,1</td></tr>
+<tr><td>EBIT</td><td>6,4</td><td>7,1</td><td>7,8</td><td>8,5</td><td>9,3</td></tr>
+<tr><td>– Steuern (30 %)</td><td>1,9</td><td>2,1</td><td>2,3</td><td>2,6</td><td>2,8</td></tr>
+<tr><td>+ Abschreibungen</td><td>4,6</td><td>4,7</td><td>4,9</td><td>5,0</td><td>5,1</td></tr>
+<tr><td>– Capex</td><td>4,6</td><td>4,7</td><td>4,9</td><td>5,0</td><td>5,1</td></tr>
+<tr><td>– Δ Working Capital</td><td>0,2</td><td>0,3</td><td>0,3</td><td>0,4</td><td>0,3</td></tr>
+<tr class="sum"><td>Free Cashflow</td><td>4,3</td><td>4,6</td><td>5,1</td><td>5,6</td><td>6,2</td></tr>
+<tr><td>Diskontfaktor (Mid-Year)</td><td>0,953</td><td>0,867</td><td>0,788</td><td>0,716</td><td>0,651</td></tr>
+<tr><td>Barwert FCF</td><td>4,1</td><td>4,0</td><td>4,0</td><td>4,0</td><td>4,0</td></tr>
+</tbody></table></div>
+
+<div class="tbl"><table style="min-width:0">
+<tbody>
+<tr><td>Summe Barwerte FCF 2026–30</td><td>20,2 Mio. €</td></tr>
+<tr><td>Terminal Value (Gordon Growth, 1,5 %)</td><td>73,8 Mio. €</td></tr>
+<tr><td>Barwert Terminal Value</td><td>48,0 Mio. €</td></tr>
+<tr class="sum"><td>Enterprise Value (DCF)</td><td>68,2 Mio. €</td></tr>
+<tr><td><i>entspricht EV / EBITDA 2025</i></td><td>6,3x</td></tr>
+</tbody></table></div>
+
+<h3>Sensitivität: Enterprise Value in Mio. €</h3>
+<div class="tbl"><table style="min-width:360px">
+<thead><tr><th>WACC \ Wachstum</th><th>1,0 %</th><th>1,5 %</th><th>2,0 %</th></tr></thead>
+<tbody>
+<tr><td>9,0 %</td><td>73,6</td><td>77,4</td><td>81,7</td></tr>
+<tr><td>10,0 %</td><td>65,3</td><td class="hl">68,2</td><td>71,5</td></tr>
+<tr><td>11,0 %</td><td>58,7</td><td>61,0</td><td>63,5</td></tr>
+</tbody></table></div>
+<p class="note">Rund 70 % des Werts stecken im Terminal Value, typisch für ein stabiles Geschäft mit moderatem Wachstum.</p>
+</section>
+
+<section id="multiples">
+<h2><span>04</span>Multiples-Bewertung</h2>
+<div class="tbl"><table>
+<thead><tr><th>Methode</th><th>Multiple (EV/EBITDA)</th><th>EBITDA 2025</th><th>EV Bandbreite</th><th>EV Mitte</th></tr></thead>
+<tbody>
+<tr><td>Trading Multiples <span class="tag">Annahme</span></td><td>5,0x – 7,0x</td><td>10,8</td><td>54,0 – 75,6</td><td>64,8</td></tr>
+<tr><td>Transaction Multiple</td><td>5,9x – 6,8x</td><td>10,8</td><td>63,2 – 72,9</td><td>68,0</td></tr>
+</tbody></table></div>
+<p><b>Trading Multiples:</b> Börsennotierte Druck- und Verpackungszulieferer werden in der Regel im mittleren einstelligen EBITDA-Multiple bewertet. Für ein privat gehaltenes Unternehmen mit 90 Mio. € Umsatz wird eine Spanne von 5,0–7,0x angesetzt. Zur Plausibilisierung: Blue Cap bewertet die eigenen Beteiligungen mit 4,0–14,5x EBITDA abzüglich 0–25 % Größenabschlag. <span class="tag">Annahme</span> <span class="tag src">Quelle 4</span></p>
+<p><b>Transaction Multiple:</b> Die naheliegendste Vergleichstransaktion ist der Verkauf von <b>SGK Brand Solutions</b> (Matthews International) an ein von <b>SGS &amp; Co</b> gegründetes Unternehmen im Januar 2025: Enterprise Value ca. 900 Mio. US-$, entsprechend <b>9x TTM Adj. EBITDA</b>. SGK ist ein direkter Wettbewerber im Brand- und Premedia-Geschäft, aber rund zehnmal größer, global aufgestellt und die Transaktion war synergiegetrieben. Daher wird ein Größen- und Synergieabschlag von 25–35 % angesetzt (Mitte 30 % → 6,3x). <span class="tag src">Quelle 5</span> <span class="tag">Annahme</span></p>
+</section>
+
+<section id="ergebnis">
+<h2><span>05</span>Ergebnis: Unternehmenswert</h2>
+<p>Die drei Methoden liegen eng beieinander. Der gewichtete Mittelwert ergibt einen <b>fairen Enterprise Value von rund 67 Mio. €</b> (≈ 6,2x EBITDA 2025, ≈ 0,74x Umsatz).</p>
+
+<div class="ff">
+<div class="ffrow"><div>DCF (WACC 9–11 %)</div><div class="track"><div class="bar" style="left:67.8%;width:18.2%"><span class="l">61,0</span><span class="r">77,4</span></div></div></div>
+<div class="ffrow"><div>Trading Multiples</div><div class="track"><div class="bar" style="left:60%;width:24%"><span class="l">54,0</span><span class="r">75,6</span></div></div></div>
+<div class="ffrow"><div>Transaction Multiple</div><div class="track"><div class="bar" style="left:70.2%;width:10.8%"><span class="l">63,2</span><span class="r">72,9</span></div></div></div>
+<div class="ffrow"><div><b>Indikativer Deal-EV</b></div><div class="track"><div class="bar deal" style="left:50%;width:11.1%"><span class="l">45</span><span class="r">55</span></div></div></div>
+<div class="axis"><div></div><div><span>0</span><span>30</span><span>60</span><span>90 Mio. €</span></div></div>
+</div>
+
+<h3>Wie lässt sich der vertrauliche Kaufpreis eingrenzen?</h3>
+<div class="tbl"><table>
+<thead><tr><th>Baustein</th><th>Mio. €</th><th>Herleitung</th></tr></thead>
+<tbody>
+<tr><td>Zahlung bei Closing</td><td>~10,2</td><td style="text-align:left">Blue Cap H1 2026: „Auszahlungen für Zugänge zum Konsolidierungskreis“ von 10.204 T€, einziger Zukauf im Halbjahr <span class="tag">Ableitung</span></td></tr>
+<tr><td>+ zwei Earn-out-Tranchen</td><td>~20,4</td><td style="text-align:left">Kaufpreis in „drei in etwa gleich große Zahlungen“, zwei erfolgsabhängig (GJ 2026/27) <span class="tag src">Quelle 2</span></td></tr>
+<tr class="sum"><td>Equity Value (bei voller Zielerreichung)</td><td>~30,6</td><td></td></tr>
+<tr><td>+ Refinanzierung durch Blue Cap</td><td>~10</td><td style="text-align:left">„entspricht in etwa dem beim Vollzug zahlbaren Kaufpreisbetrag“ <span class="tag src">Quelle 2</span></td></tr>
+<tr><td>+ fortgeführte Bankfinanzierung</td><td>5 – 15</td><td style="text-align:left">Konsortialkredit läuft „in vermindertem Umfang“ weiter, Höhe unbekannt <span class="tag">Annahme</span></td></tr>
+<tr class="sum"><td>Indikativer Enterprise Value</td><td>~45 – 55</td><td style="text-align:left">Mitte ~50 Mio. € ≈ 4,6x EBITDA 2025</td></tr>
+</tbody></table></div>
+<p class="note">Dies ist eine Outside-in-Schätzung aus öffentlichen Unterlagen, kein veröffentlichter Transaktionswert.</p>
+</section>
+
+<section id="fazit">
+<h2><span>06</span>Fazit</h2>
+<div class="box">
+<p style="margin-top:0">Mein Modell kommt auf einen fairen Unternehmenswert von <b>rund 67 Mio. €</b>. Der aus öffentlichen Daten abgeleitete Deal-Wert liegt mit <b>ca. 50 Mio. €</b> etwa 25 % darunter, also bei ca. 4,6x statt 6,2x EBITDA. Das deckt sich mit Blue Caps eigener Aussage einer „attraktiven Einstiegsbewertung“.</p>
+<p>Dafür sehe ich drei Gründe:</p>
+<ol>
+<li><b>Earn-out statt Bewertungsstreit:</b> Zwei Drittel des Kaufpreises hängen an den Ergebnissen 2026/27. So wird die Lücke zwischen Verkäufererwartung und Käuferangebot überbrückt, das Margenrisiko (6,6 % im ersten Monat vs. ~14 % laut Prognose) bleibt teilweise bei den Verkäufern.</li>
+<li><b>Gesellschafterstruktur:</b> Gründerfamilie plus Minderheitsinvestor (SüdBG) suchten eine langfristige Lösung. Ein Evergreen-Käufer ohne Exit-Druck ist für solche Verkäufer oft mehr wert als der letzte Euro.</li>
+<li><b>Größen- und Illiquiditätsabschlag:</b> Bei 90 Mio. € Umsatz und Standorten in 12 Ländern ist die Integration komplex; ein Strategen-Multiple wie bei SGK (9x) ist für einen Mittelständler nicht realistisch.</li>
+</ol>
+<p style="margin-bottom:0">Für die Verkäuferseite heißt das: Werden die Earn-outs voll erreicht und hebt Blue Cap die Marge in Richtung 14 %, partizipieren die Verkäufer an genau der Wertsteigerung, die das DCF unterstellt. Die Struktur ist damit ein typischer Mittelstands-Kompromiss zwischen Sicherheit heute und Upside morgen.</p>
+</div>
+</section>
+
+<section id="quellen">
+<h2><span>07</span>Quellen</h2>
+<ol class="src">
+<li>IMAP: Transaktion Blue Cap AG / Janoschka AG. <a href="https://www.imap.com/nl-nl/transactions/blue-cap-ag-janoschka-ag~t">imap.com</a></li>
+<li>Blue Cap AG, Ad-hoc-Mitteilung und Pressemitteilung vom 07.05.2026. <a href="https://www.deraktionaer.de/nachricht/eqs-adhoc-blue-cap-ag-erwirbt-janoschka-ag-und-passt-prognose-transaktionsbedingt-an-deutsch-522755.html">Ad-hoc</a> · <a href="https://www.deraktionaer.de/nachricht/eqs-news-blue-cap-ag-erweitert-portfolio-durch-akquisition-der-janoschka-ag-deutsch-522754.html">Pressemitteilung</a></li>
+<li>Blue Cap AG, Vollzug der Akquisition, 18.06.2026. <a href="https://www.deraktionaer.de/nachricht/eqs-news-blue-cap-ag-vollzug-der-akquisition-der-janoschka-ag-erfolgreich-abgeschlossen-deutsch-532516.html">deraktionaer.de</a></li>
+<li>Blue Cap AG, Halbjahresbericht 2026 (30.10.2026). <a href="https://www.blue-cap.de/app/uploads/2026/10/261029_HB26_BlueCap_gesichert.pdf">blue-cap.de</a></li>
+<li>Matthews International, „Matthews International to Sell SGK Brand Solutions“, 08.01.2025. <a href="https://d1io3yog0oux5.cloudfront.net/_f521c02fc0aa2849fc922a24607795d4/matw/news/2025-01-08_Matthews_International_to_Sell_SGK_Brand_260.pdf">Pressemitteilung (PDF)</a></li>
+<li>Blue Cap AG, Investorenpräsentation 29.09.2026. <a href="https://www.blue-cap.de/app/uploads/2026/09/20260929_Investor-Presentation_ZKK_Vf.pdf">blue-cap.de</a></li>
+</ol>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+Erstellt von Linus als Fallstudie im Rahmen einer Bewerbung. Alle Bewertungen sind vereinfachte Outside-in-Schätzungen auf Basis öffentlicher Informationen; mit <i>Annahme</i> markierte Werte sind eigene Schätzungen. Es werden keine internen Deal-Daten verwendet. Keine Anlageberatung. Stand: November 2026.
+</div></footer>
+</body>
+</html>
